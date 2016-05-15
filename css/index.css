@@ -207,7 +207,7 @@ h2 {
 }
 .demoList,
 .demoDetials {
-  width: 693px;
+  width: 944px;
   margin: auto;
   *zoom: 1;
 }
@@ -254,6 +254,7 @@ h2 {
 .demoDetials li:nth-child(1) {
   margin-left: 0;
 }
+
 .demoDetials a {
   font-size: 22px;
   color: #fff;
