@@ -1,6 +1,6 @@
 $(function(){
 	$('#fullpage').fullpage({
-		sectionsColor: ['#ffde00', '#9ded00','#ee566b', '#57bea9'],
+		sectionsColor: ['#ffde00', '#339933','#ee566b', '#57bea9'],
 		anchors: ['page1', 'page2', 'page3', 'page4'],
 		navigation:true,
 		navigationTooltips:["个人信息","技能展示","作品展示","联系我"],
