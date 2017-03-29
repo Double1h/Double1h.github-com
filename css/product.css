@@ -1,0 +1,185 @@
+body {
+  color: #5a5a5a;
+}
+/* nav */
+.navbar-brand {
+    font-size: 30px;
+}
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  .container {
+      width: auto;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+a:hover {
+    text-decoration: none;
+}
+.productList li {
+    background: #fff;
+    color: #666;
+    font-size: 16px;
+    line-height: 46px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.productList i {
+    padding-right: 10px;
+}
+.productList  a {
+    color: #03A9F4;
+    background: #f8f8f8;
+    line-height: 46px;
+    display: inline-block;
+    width: 80%;
+    border-radius: 4px;
+}
+.productDetailList li {
+  position: relative;
+}
+.productDetailList li > div {
+  padding: 0;
+}
+.showDetailByImg img {
+  width: 100%;
+}
+.showDetailByTextWraper {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  color: #fff;
+}
+.showDetailByText {
+  padding: 0 10%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0,-50%);
+}
+#fileTransfer .showDetailByTextWraper,
+#assignment .showDetailByTextWraper {
+  left: 0;
+  right: 50%;
+}
+#fileTransfer .showDetailByImg,
+#assignment .showDetailByImg {
+  left: 50%;
+}
+#fileTransfer .showDetailByTextWraper {
+  background: #467AB2;
+}
+#communicate .showDetailByTextWraper {
+  background: #9CA5AB;
+}
+#examination .showDetailByTextWraper {
+  background: #26B251;
+}
+#assignment .showDetailByTextWraper {
+  background: #5A0618;
+}
+ #mailList .showDetailByTextWraper {
+  background: #C3A5AB;
+}
+@media (max-width: 767px) {
+  .showDetailByTextWraper {
+    left: 0;
+  }
+  #communicate .showDetailByTextWraper {
+      background: rgba(156,165,171,.5);
+  }
+  #examination .showDetailByTextWraper {
+    background: rgba(38,178,81,.5);
+  }
+  #assignment .showDetailByTextWraper {
+    background: rgba(96,6,24,.5);
+  }
+  #fileTransfer .showDetailByTextWraper{
+    background: rgba(70,172,178,.5);
+  }
+  #mailList .showDetailByTextWraper {
+    background: rgba(195,165,171,.5);
+  }
+  #fileTransfer .showDetailByImg,
+  #assignment .showDetailByImg {
+    left: 0;
+  }
+
+  #fileTransfer .showDetailByTextWraper,
+  #assignment .showDetailByTextWraper {
+    left: 0;
+    right: 0;
+    z-index: 3;
+  }
+  
+}
+.contactUs {
+  padding: 40px  60px 0 60px;
+  background: #F0F5F9;
+}
+.contactUs h3 {
+  color: #828282;
+}
+.contactUs p {
+  font-size: 16px;
+  color: #000;
+  cursor: pointer;
+}
+.contactUs .footer {
+  margin-top: 60px;
+  font-size: 14px;
+  padding: 20px 0;
+  text-align: center;
+}
