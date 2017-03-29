@@ -1,0 +1,178 @@
+body {
+  color: #5a5a5a;
+}
+/* nav */
+.navbar-brand {
+    font-size: 30px;
+}
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  .container {
+      width: auto;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+.contactUs {
+  padding: 40px  60px 0 60px;
+  background: #F0F5F9;
+}
+.contactUs h3 {
+  color: #828282;
+}
+.contactUs p {
+  font-size: 16px;
+  color: #000;
+  cursor: pointer;
+}
+.contactUs .footer {
+  margin-top: 60px;
+  font-size: 14px;
+  padding: 20px 0;
+  text-align: center;
+}
+.navbar {
+  margin-bottom: 0;
+}
+.banner {
+  position: relative;
+  width: 100%;
+  max-height: 280px;
+  overflow: hidden;
+  color: #fff;
+}
+.banner img {
+  width: 100%;
+}
+.banner h1 {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  width: 100%;
+  transform: translate(0,-50%);
+  margin-top: 0;
+}
+.banner button {
+  margin-top: 20px;
+}
+.packageComparison {
+  width: 80%;
+  margin: 40px auto;
+}
+.mainTitle {
+  text-align: center;
+  margin: 80px 0;
+}
+.mainTitle h2 {
+  font-size: 40px;
+  margin-bottom: 0px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #000;
+}
+.mainTitle p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #828282;
+}
+.packageComparison > div {
+  margin-bottom: 40px;
+}
+.packageComparison .title {
+  color: #fff;
+  background: #03A9F4;
+  padding: 18px;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+.packageComparison h2 {
+  font-size: 24px;
+  padding: 20px 0 10px 0;
+  margin: 0;
+}
+.packageComparison h3 {
+  font-size: 30px;
+}
+.packageComparison p {
+  font-size: 12px;
+}
+.serverList li {
+  border: 1px solid #ebeae6;
+  line-height: 30px;
+  color: #89817f;
+  border-top: none;
+}
+.serverList li:last-child { 
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.serverList p {
+  border-left: 5px solid #fff;
+  font-size: 13px;
+  margin-bottom: 0;
+  padding: 3px 15px;
+}
+.serverList p:hover {
+  background: #f8f7f5;
+  border-color: #03A9F4;
+}
+.serverList .moreServer {
+  color: #03A9F4;
+}
+.free .title {
+  background: #fff;
+  color: #000;
+  border: 1px solid #ebeae6;
+}
+.free .serverList p:hover {
+  border-color: #000;
+}
