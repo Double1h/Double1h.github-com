@@ -34,14 +34,25 @@ body {
   height: 500px;
   background-color: #777;
 }
-.carousel-inner > .item > img {
+.first-slide {
+  background: url(../img/banner_1.jpg) center;
+}
+.second-slide {
+  background: url(../img/banner_2.jpg) center;
+}
+.third-slide {
+  background: url(../img/banner_3.jpg) center;
+}
+.first-slide,
+.second-slide,
+.third-slide {
+  background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
-  min-height: 100%;
+  right: 0;
+  height: 500px;
 }
-
 .marketing .col-lg-4 {
   margin-bottom: 20px;
   text-align: center;
@@ -236,4 +247,3 @@ color: #828282;
   padding: 20px 0;
   text-align: center;
 }
->>>>>>> gh-pages
