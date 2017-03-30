@@ -196,6 +196,9 @@ body {
     height: auto;
     padding: 0 20px;
   }
+  .caseList detail { 
+    width: 240px;
+  }
   .caseList li>div {
     margin-top: 0;
   }
