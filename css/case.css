@@ -192,6 +192,9 @@ body {
   display: block;
 }
 @media (max-width: 767px) {
+  .caseList h2 {
+    font-size: 24px;
+  }
   .caseList li { 
     height: auto;
     padding: 0 20px;
