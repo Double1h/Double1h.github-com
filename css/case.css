@@ -196,7 +196,7 @@ body {
     height: auto;
     padding: 0 20px;
   }
-  .caseList detail { 
+  .caseList detail p { 
     width: 240px;
   }
   .caseList li>div {
