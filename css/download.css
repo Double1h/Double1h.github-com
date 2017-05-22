@@ -83,3 +83,13 @@ body {
 .navbar {
   margin-bottom: 0;
 }
+body,html {
+  height: 100%;
+}
+.offset-top {
+  min-height: 100%;
+  margin-bottom: -334px;
+}
+.forFooter,.contactUs {
+  min-height: 334px;
+}
